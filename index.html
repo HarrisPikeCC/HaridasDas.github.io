@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Elements</title> 
+        <link rel="stylesheet" href = "./styles.css" type="text/css">
+    </head>
+    <header>
+        <h1>HTML Elements Reference</h1>
+        <nav class="menu">
+            <h4>Table of Contents<h4>
+            <ul>
+                <li><a href="#overview">Overview</a></li>
+                <li><a href="#element_tags">Element Tags</a></li>
+                <li><a href="#references">References</a></li>
+                <li><a href="#about_this_page">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <body>
+
+        <section>
+            <h2 id="overview">Overview</h1>
+            <article>
+                <p>The <a href="https://developer.mozilla.org/en-US/docs/Glossary/Element">Mozilla Developer Network</a> defines an element as "is a part of a webpage." They continue that "A typical element includes an opening tag with some attributes, enclosed text content, and a closing tag."
+                <br><br>
+                This document defines some of the most common HTML elements.
+                </p>
+            </article>
+        </section>
+        <section>
+            <h2 id="element_tags">Element Tags</h2>
+            <section id="main_root">    
+                <h3><a class = "header" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element#main_root" >Main Root</a></h3>
+                <article>
+                    Top level element of a document.                
+                </article>
+                <br>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Tag</th>
+                            <th>Name</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <span class="code">html</span>
+                            </td>
+                            <td>HTML</td>
+                            <td>"Represents the top-level element of an HTML document... All other elements must be descendants of this element."<sub>1</sub></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section id="document_metadata">    
+                <h3><a class = "header" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element#document_metadata">Document metadata</a></h3>
+                <article>
+                    "Metadata contains information about the page... Metadata for styles and scripts may be defined in the page or link to another file that has the information."<sub>1</sub>               
+                </article>
+                <br>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Tag</th>
+                            <th>Name</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <span class="code">head</span>
+                            </td>
+                            <td>head</td>
+                            <td>"Contains general information about an HTML page that isn’t displayed on the page itself."<sub>2</sub></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span class="code">link</span>
+                            </td>
+                            <td>link</td>
+                            <td>"Specifies relationships between the current document and an external resource. This element is most commonly used to link to CSS" <sub>1</sub></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span class="code">style</span>
+                            </td>
+                            <td>style</td>
+                            <td>Used for putting CSS directly into the document.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section id="sectioning">    
+                <h3><a class = "header" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element#content_sectioning">Sectioning</a></h3>
+                <article>
+                    "Sectioning elements allow you to organize the document content into logical pieces. Use the sectioning elements to create a broad outline for your page content, including header and footer navigation, and heading elements to identify sections of content."<sub>1</sub>               
+                </article>
+                <br>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Tag</th>
+                            <th>Name</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <span class="code">body</span>
+                            </td>
+                            <td>body</td>
+                            <td>"Represents the content of an HTML document. There can be only one <span class="code">body</span> element in a document.<sub>1</sub></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span class="code">header</span>
+                            </td>
+                            <td>header</td>
+                            <td>"Describes the content at the top of the page."<sub>2</sub></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span class="code">footer</span>
+                            </td>
+                            <td>footer</td>
+                            <td>"Includes the page’s footer content at the bottom of the" page.<sub>2</sub></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </section>
+       
+    </body>
+    <footer>
+        <h4 id="references">References</h4>
+            <ol>
+                <li><a href = "https://developer.mozilla.org/en-US/docs/Web/HTML/Element">Mozilla Developer Network <i>HTML elements reference</i></a></li>
+                <li><a href = "https://www.codecademy.com/learn/paths/full-stack-engineer-career-path/tracks/fscp-web-development-fundamentals/modules/fecp-learn-html-elements/cheatsheet">Codecademy <i>Learn HTML: Elements</i></a></li>
+            </ol>
+        <h4 id="about_this_page">About this Page</h4>
+        <article>
+            <p>This document houses some information on HTML elements. For a more complete guide, visit the <a href=
+                "https://developer.mozilla.org/en-US/docs/Web/HTML/Element">MDN reference on HTML Elements</a>. <br> This page was manifested through Haridas Das on 1/26/22. </p>
+        </article>
+    </footer>
+</html>
